@@ -1,0 +1,87 @@
+/* 
+
+9/14/20 
+Id is unique as class you can reuse
+
+CSS: Cascading Styles Sheets
+
+CSS Parts:
+1) Selector or Target
+2) Rules: property & value
+
+*/
+
+
+/* Note: we need this codes for Week 2, Homework 3!!! *、
+/* in the Html body sectiion, we put the following:  
+body {background-color: yellow;}     Property: background-color ; value: blue 
+
+p {                                    * Paragraphs element 
+    color: darkblue;
+    font-size: 72px;
+}
+
+*/
+
+
+/* # is to select an id */
+#firstDiv {
+    background-color: grey;
+    margin: 10px;
+}
+
+#pizza {
+    background-color: red;
+}
+
+
+/*9/15/2020*/
+/* In the CSS, a class selector is a name preceded by a full stop (“.”) and an ID selector is a name preceded by a hash character (“#”). */
+/* . is to select a class, */
+
+
+/* This box is exactly 300 pixels wide, because we add thje width, borders for each side, and paddings together to end up with 300 pixels.*/
+/* 278=300-5-5-12*/
+/* we want to keep out box, 300x300 */
+
+/*
+actual height = (height + padding top + padding bottom) + (boder-width*2)
+      ?        = (290 + 100 + 25) + ( 5x2)
+      278=300-5x2-12
+      190=300-5x2-100
+
+actual width = (width + paddingleft+ paddingright) +(boder*2)
+        300   = (266 + 12 + 12) + (5*2)
+*/
+
+.box {
+    width: 278px; /* 278=300-5-5-12 */
+    height: 190px; /*190=300-5-5-100 */
+    background-color: cornsilk;
+    border-style: solid;
+    border-width: 5px;
+    border-color: purple;
+    margin-top: 50px;
+    margin-left: auto;  /* or 100px */
+    margin-right: auto; /* margin auto is for horizontal, horizontally aligning */
+                        /* vertically aligning is very difficult, vertical align anything within CSS */
+    margin-bottom: 25px;
+    padding-left: 12px;
+    padding-top: 100px;
+
+} 
+
+
+/* In the CSS, a class selector is a name preceded by a full stop (“.”) and an ID selector is a name preceded by a hash character (“#”). */
+/* # is to select an id */
+#special-paragraph {
+    font-size: 24px;
+    font-family: "Arial";
+    color: purple;
+    text-decoration: overline underline; /* underline, overline, line-through； overline underline */
+    font-weight: bold;
+    font-style: italic;
+    line-height: 48px;
+                        /* direction: rtl ==the text from Right to Left*/
+    text-align: center；/* text-align: justify ==evenly spacing out the text */
+}

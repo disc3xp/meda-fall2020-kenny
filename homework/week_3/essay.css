@@ -1,0 +1,71 @@
+body {background-color: lightcyan;
+    text-indent: 70px;
+    color: rgb(90, 12, 121);
+}     
+
+
+
+#first-paragraph {
+    font-size: 14px;
+    font-family: "Arial";
+    color: blue;
+    text-decoration: normal; 
+    font-weight: bold;
+    font-style: normal;
+    line-height: 48px;
+                        
+    text-align: center；
+}
+
+
+
+#body-paragraph {
+    font-size: 28px;
+    font-family: "Comic Sans MS";
+    color: green;
+    text-decoration: normal; 
+    font-weight: normal;
+    font-style: normal;
+    line-height: 28px;
+                        
+    text-align: center；
+}
+
+
+
+#conclusion {
+    font-size: 42px;
+    font-family: "Georgia";
+    color: blue;
+    text-decoration: underline; 
+    font-weight: bold;
+    font-style: italic;
+    line-height: 48px;
+    text-align: center；
+}
+
+
+
+
+.box {
+    width: 600px; 
+    height: 150px; 
+    background-color: cornsilk;
+    border-style: dashed solid;
+    border-width: 10px;
+    border-color: cyan;
+    margin-top: 100px;
+    margin-left: auto;  
+    margin-right: auto;  
+    margin-bottom: 50px;
+    padding-left: 300px;
+    padding-right: auto;
+    padding-top: 1px;
+
+} 
+
+
+
+#centering-word{
+    text-align: center;
+}

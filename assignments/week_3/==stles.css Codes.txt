@@ -1,0 +1,17 @@
+/* 
+
+9/14/20 
+CSS: Cascading Styles Sheets
+
+CSS Parts:
+1) Selector
+2) Rules: property & value
+
+*/
+
+body {background-color: yellow;}    /* Property: background-color ; value: blue */
+
+p {                                    /* Paragraphs element */
+    color: darkblue;
+    font-size: 72px;
+}
