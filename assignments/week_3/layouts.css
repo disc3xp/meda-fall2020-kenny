@@ -31,7 +31,7 @@
 }
 
 #footer{
-    widows: 700px; 
+    width: 700px; 
     height: 50px;
     background-color: grey;
     margin-left: auto;
@@ -55,4 +55,21 @@
     vertical-align: top;   /* this moving up the pink box */
     padding: 20px;
     border: 1px solid red  /* shorthand for border-width, border-stlye and border-color */
+}
+
+
+.gallery{
+    width: 77px;    /*  117=468/4*  and then 97=117-20-20 padding, now all 4 grey gallary box in a line! , and then 77=97-10-10 margin = each gllary box is still now 97x220  */
+    height: 200px;
+    background-color:silver;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px; /* 2 step: we added this rule, adding 20px margin between each row (4 boxes in a row) */
+
+}
+
+#gallery-container{
+    line-height: 0px;  /* 1step: this line, this ID, removes gaps vertiically*/
 }

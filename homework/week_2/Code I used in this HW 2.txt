@@ -7,3 +7,10 @@ In Body:
     
     }
 </style>
+
+
+
+
+==================
+<h1 style="text-align:center"> My Hobby</h1>
+Is this considered  html or with some CSS?

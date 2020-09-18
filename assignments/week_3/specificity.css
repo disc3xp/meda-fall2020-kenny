@@ -1,0 +1,49 @@
+/* 9-18-2020 */
+
+/* ID > Class */
+
+<div{
+    background-color: black;
+
+}
+#first{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+#second{
+    width: 200px;
+    height: 200px;
+ 
+
+}
+
+#third{
+width: 400px;
+height: 400px;
+}
+
+.green{
+    background-color: green;
+    border: solid 10px darkgreen;
+}
+
+.red{
+    background-color:red;
+}
+
+.blue{
+    background-color:blue;
+    background-color: transparent;   /* rule order matters, so the 3rd box from blue to transparent here.
+
+}
+
+/*
+Order of specificity:
+Element selectors < Class selectors < ID Selectors
+      Generic     <    Importance   < Specificity
+*/
+
+/* Orders in the ruleset matter ==> the lasr rule will be dominant and take effect */
+
