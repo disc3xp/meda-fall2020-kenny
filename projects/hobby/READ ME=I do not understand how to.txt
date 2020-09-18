@@ -1,0 +1,12 @@
+Hi Ed,
+I don't know why the Images 4,5, 6 are not in same line as Images 1,2,3 appear.
+Is it because of I am using <figure> element this time?
+
+I don't really know how a normal Appendix should go.
+
+And please comment me on things I should change/improve.
+
+
+(And I will fix my sentences and replace the first 3 images with my own images about playing basketball.)
+Thank you and I enjoy your class!
+--Kenny

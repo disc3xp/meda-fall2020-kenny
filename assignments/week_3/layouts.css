@@ -1,0 +1,58 @@
+/* 9-17-2020: */
+/* Normally we would have a parent div holding #header, #main, and #footer, so we can apply margin-left and margin-right to this parent div, instead of every div on the webpage. */
+
+/* meaning, professional designers do the following in the Body of webpage:
+<body>
+<div>
+  <div #header></div>
+  <div #main></div>
+  <div #footer></div>
+</div>    easier to control
+</body>
+*/
+
+#header{
+    width: 700px;
+    height: 200px;
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#main{
+
+    width: 660px;    /*-- we had 700px originally. now 660=700-20-20 --> */
+    height: 1000px;
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#footer{
+    widows: 700px; 
+    height: 50px;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#sidebar{
+    width: 150px;
+    height: 1000px; /* change from 200px originally to 1000px*/
+    background-color: skyblue;
+    display: inline-block;   /* display=forcing to be inline;  block, inline, or block-inline*/
+                             /* we are making the blue and pink box next to each other now,  so we put display: inline-block in both #sidebar and #article*/
+}
+
+#article{
+    width: 468px; /* orginally is 200px; 510=660-150; and then 468=510-20-20-1-1 */
+    height: 958px; /* originally 1000px; 958=1000-20-20-1-1-   */
+    background-color: pink;
+    display: inline-block;
+    vertical-align: top;   /* this moving up the pink box */
+    padding: 20px;
+    border: 1px solid red  /* shorthand for border-width, border-stlye and border-color */
+}
