@@ -1,11 +1,17 @@
 /* 9-18-2020 */
 
 /* ID > Class */
-
-<div{
-    background-color: black;
-
+body{
+    background-color: grey;
+    margin: 0px; /* we usually add this, so we can use all area of the HTML body/viewport=no edge */
 }
+
+div{            /* this div show in black color because this div doesnot have any id and class now */
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+
 #first{
     width: 100px;
     height: 100px;
@@ -34,8 +40,8 @@ height: 400px;
 }
 
 .blue{
-    background-color:blue;
-    background-color: transparent;   /* rule order matters, so the 3rd box from blue to transparent here.
+    background-color:purple;
+    background-color: blue;   /* rule order matters, so the 3rd box from blue to transparent here.
 
 }
 

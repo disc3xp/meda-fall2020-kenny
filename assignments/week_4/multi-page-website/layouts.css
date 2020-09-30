@@ -1,0 +1,155 @@
+/* 9-17-2020: */
+/* Normally we would have a parent div holding #header, #main, and #footer, so we can apply margin-left and margin-right to this parent div, instead of every div on the webpage. */
+
+/* meaning, professional designers do the following in the Body of webpage:
+<body>
+<div>
+  <div #header></div>
+  <div #main></div>
+  <div #footer></div>
+</div>    easier to control
+</body>
+*/
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+
+#container header nav{
+    padding-top: 157px;    /* we wanted to move 4 button to the buttom of the Header */
+}
+
+
+#container header nav ul{
+    border:dashed green 1px;
+    padding-left: 0px;
+    width: 350px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#container header nav ul li{
+    /*
+    border-style: dashed;
+    border-color: red;
+    border-width: 1px;
+    */
+    display: inline-block;   /*cganing from inline to inline-block, and added padding, cuz we want Home About us, Gallery and Contact Us look like 4 buttons */
+    background-color: lightgreen;  /* put this rule here, so we have "button color" */
+    border-radius: 5px; /* giving like "round it off buttons"  */
+}
+
+/* ****We wanted to click the Whole green button, not the Gallery-text, in order to open Gallery.html*/
+#container header nav ul li a{
+    line-height: 32px;  /* This is the text siz + front size; 32=12+10+10*   12 is NEW TIMES ROMAN, 10 is PADDING */
+    display: inline-block;
+    height: 32px;       /* This height, 32, is for <a> element */
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+
+header{
+   
+    height: 200px;
+    background-color: blanchedalmond;
+
+}
+
+
+main{
+
+   /*-- we had 700px originally. now 660=700-20-20 --> */
+ 
+    background-color: lightgray;
+
+    padding: 20px;
+    vertical-align: middle;
+}
+
+footer{
+ 
+    height: 50px;
+    background-color: grey;
+
+}
+
+footer p{
+    text-align: center;
+    margin-block-start: 0;  /* *******use 0 here, we want to overide  Chrome's default browsing style, setting margin-block-start:1em; margin-block-end: 1em.*/
+
+}
+
+
+
+
+
+
+
+#sidebar{
+    width: 150px;
+    height: 1000px; 
+    background-color: skyblue;
+    display: inline-block;   /* display=forcing to be inline;  block, inline, or block-inline*/
+                             /* we are making the blue and pink box next to each other now,  so we put display: inline-block in both #sidebar and #article*/
+}
+
+#article{
+    width: 468px; /* originally 660; 510=660-150, and then 468=510-20-20-1-1 */
+    height: 958px; /* originally 1000px; 958=1000-20-20-1-1-   */
+    background-color: pink;
+    display: inline-block;
+    vertical-align: top;   /* this moving up the pink box */
+    padding: 20px;
+    border: 1px solid red;  /* shorthand for border-width, border-stlye and border-color */
+}
+
+
+.gallery{
+    width: 77px;    /*  117=468/4boxes, and then 97=117-10-10 padding, now all 4 grey gallary box in a line! , and then 77=97-10-10 margin = each gllary box is still now 97x220  */
+    height: 200px;
+    background-color:silver;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px; /* 2 step): we added this rule, adding 20px margin between each row (4 boxes in a row) */
+
+}
+
+#gallery-container{
+    line-height: 0px;  /* 1 step): this line, this ID, removes gaps vertiically */
+}
+
+
+
+/* 9/23/2020 */
+/* creating id, stlyize color of text in Home, Gallery, About.html */
+#home p, #home h1{      /* ,     multi-selections ; only affecting home.html text styles */
+    color: darkgreen;
+}
+
+#about p{
+    color: darkcyan;
+}
+
+#about h1{
+    color: fuchsia;
+}
+
+#about h2{
+    color: green;
+}
+
+
+Body{
+    background-color: lemonchiffon;
+}

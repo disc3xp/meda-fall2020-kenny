@@ -1,0 +1,58 @@
+<!-- 9-21-2020-->
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Understanding Specificity</title>
+<!-- external stylesheet, the CSS code is in another file-->
+  <link rel="stylesheet" href="specificity2.css">
+
+<!-- internal stylesheet, the CSSis located right inside the same HTML file. (with in the html Head) -->
+<style>
+  body{
+    background-color: pink;
+    margin:10px;
+  }
+</style>
+
+
+  
+</body>
+
+</head>
+
+<!--9-21-2020-->
+<body>
+ <a href="#">duckducko.com</a>
+
+  <header>
+    <div></div>
+  </header>
+
+<div>
+  <p><a href="#">bing.com</a></p>
+
+  <div>
+
+    <p>Hello</p>
+
+    <ul>
+      <li><a href="#">Google.com</a></li>
+    </ul>
+
+    <p><a href="#">yahoo.com</a></p>
+
+  <div>
+</div>
+
+<!-- Inline CSS style, no selectors, as it selects the element it is located in.(1000 specificity points) -->
+  <footer style="border: dashed red 2px; margin: 20px; margin: 30px">
+    <div></div>
+  </footer>
+
+
+
+</body>
+</html>

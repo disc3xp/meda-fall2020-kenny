@@ -41,35 +41,35 @@
 
 #sidebar{
     width: 150px;
-    height: 1000px; /* change from 200px originally to 1000px*/
+    height: 1000px; 
     background-color: skyblue;
     display: inline-block;   /* display=forcing to be inline;  block, inline, or block-inline*/
                              /* we are making the blue and pink box next to each other now,  so we put display: inline-block in both #sidebar and #article*/
 }
 
 #article{
-    width: 468px; /* orginally is 200px; 510=660-150; and then 468=510-20-20-1-1 */
+    width: 468px; /* originally 660; 510=660-150, and then 468=510-20-20-1-1 */
     height: 958px; /* originally 1000px; 958=1000-20-20-1-1-   */
     background-color: pink;
     display: inline-block;
     vertical-align: top;   /* this moving up the pink box */
     padding: 20px;
-    border: 1px solid red  /* shorthand for border-width, border-stlye and border-color */
+    border: 1px solid red;  /* shorthand for border-width, border-stlye and border-color */
 }
 
 
 .gallery{
-    width: 77px;    /*  117=468/4*  and then 97=117-20-20 padding, now all 4 grey gallary box in a line! , and then 77=97-10-10 margin = each gllary box is still now 97x220  */
+    width: 77px;    /*  117=468/4boxes, and then 97=117-10-10 padding, now all 4 grey gallary box in a line! , and then 77=97-10-10 margin = each gllary box is still now 97x220  */
     height: 200px;
     background-color:silver;
     display: inline-block;
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 20px; /* 2 step: we added this rule, adding 20px margin between each row (4 boxes in a row) */
+    margin-bottom: 20px; /* 2 step): we added this rule, adding 20px margin between each row (4 boxes in a row) */
 
 }
 
 #gallery-container{
-    line-height: 0px;  /* 1step: this line, this ID, removes gaps vertiically*/
+    line-height: 0px;  /* 1 step): this line, this ID, removes gaps vertiically */
 }

@@ -1,0 +1,106 @@
+/* 9-21_2020 */
+div{
+    width: 200px;
+    height: 200px;
+    background-color:darksalmon;
+}
+
+/* select all divs which xxxxxxxxxxxx */
+footer div{       /* i want to select all div element inside of footer element */
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+body footer div{
+    background-color:orange;
+}
+
+html body footer div{
+    background-color: silver; /* *****become silver color, becuase here elemnt has 4 specificity points, privours has 3 points; and previous previous has 2 points). 
+    4>2, so silver color. */
+}
+
+
+header div{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+/* to check the most important, please point it "HEADER DIV {", it shows 0,0,0)how many points they worth */
+
+/*  0,0,0
+    1st number=100 point
+    2nd number=10 points
+    3rd number=1 point
+    for exmaple, 1,3,2, means 132 specificity points
+*/
+
+/* that has more specicif point, overrides other ::-webkit-search-results-buttonthe higher the point, the more specificity is, takes place */
+/* so we know which rule overrides which rule */
+/* the element/ruleset with more specificity points, overrides other ruleset */
+
+
+/*
+you can try with this example:
+html body footer div{
+    background-color: silver;        (thie 3rd box/footer-div will be silver color, becuase it has 4 element specificity points)
+}
+*/
+
+/*
+Bob Ittipon  10:53 AM
+@jj the number of element will change and the the more number of elements is the more important (the higher point will be the more specific) example !important 1, 0, 0, 0, 0is the most important
+checkout this https://specifishity.com/
+*/
+
+/*
+!important=10000 point
+id=100
+class=10
+div=1
+*/
+
+
+a{
+    color: purple;
+}
+
+div a{
+    color: red;
+}
+
+p a{
+    color: pink;
+}
+
+
+/* select akk anchors xxxxxxxxxxxxxxxxxxxxxxxxx */
+div > div > p a{    /* > means direct child selector */
+    color: greenyellow;  (only yahoo.com become greenyellow)
+}
+
+
+/* select all xxxxxxxxxxxxxxxxxxxxxx */
+p > a{
+
+    font-size: 36px;  (bing.com become big )
+}
+
+
+/*
+=============================================
+extra:
+ways to do with class and id, and others
+/* select only the xxxxxxxxxxxxxxxxxxx
+a.bold{}              <=====>    (    <a href="#"google.com" class="bold">        )
+
+p#special-text{}      <======>   (    <a href="google.com: id="special-text">     )
+p #special-text{}     <=====>    ( body div )
+p > speical-text{}
+p, a{}                  ( or )
+=============================================
+*/
+
+/* just compare, copy or add teacher's note here ........ for this CSS....... */
