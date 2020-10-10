@@ -1,25 +1,27 @@
+10/9/2020
 Project 2: PORTFOLIO - design_brief
 
 Header: 
-Background color: Greenyellow, rgb (173,255,47) (Since green represent "Competence" according to helpscout.com, I think it can reflex more for my portfolio project.)
-Font size: 32
-Text color: Orange, rgb (255, 87, 25) (To me, this color represents energy/energetic.)
+Background color: Greenyellow, rgb(173,255,47) (Since green represent "Competence" according to helpscout.com, I think it can reflex more for my portfolio project.)
+Font size: 32px
+Text color: Orange, rgb(255, 87, 25) (To me, this color represents energy/energetic.)
+Link text color: Should also be Orange, rgb (255, 87, 25)
 
 
 Body:
-Background color: White, rgb (255, 255, 255) (White looks pure and professional to me.)
-Font size: Default or 12
-Text color: Black
+Background color: White, rgb(255, 255, 255) (White looks pure and professional to me.)
+Font size: Default or 16px
+Text color: Default or Black
 
 
 Footer:
-Background color: Silver, rgb (147, 149, 152) (The visitors can notice that here is my footer section since it is a different color from the Body.)
-Font size: Default or 12
-Text color: Black
+Background color: Silver, rgb(147, 149, 152) (The visitors can notice that here is my footer section since it is a different color from the Body.)
+Font size: Default or 16px
+Text color: Default or Black
 Copyright 2020 Kenny Chen. All Rights Reserved.
 
 
-ALL Link text color: Default or blue and underlined
+ALL other Link text color: Default or blue and underlined
 
 
 ========================================================
