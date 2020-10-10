@@ -1,0 +1,93 @@
+/* 10/9/2020   Working with HTML Forms                   */
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>HTML Forms</title>
+
+    <style>
+        textarea {
+            resize: none;   /*do not allow people to resize the textarea box :)  */
+        }
+
+        body {
+            background-color: mistyrose;
+        }
+
+
+        form {
+            width: 400px;
+            /*
+            width: 600px;
+            text-align: right;
+            */
+        }
+
+        form > input {
+            font-family: Arial;
+            font-size:24px;
+            font-weight: bold;
+            background-color:blanchedalmond;
+            color:indianred;
+            border-color: indianred;
+            border-style: solid;
+            border-width: 4px;
+            border-radius: 6px;  
+            padding: 12px;
+            margin: 10px;
+        }
+
+
+        form >label {
+            font-family: Arial;
+            font-size: 24px;
+            font-weight: bold;
+            color: indianred;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+<form>   <!-- <form action="http://www.mywebsite.com/submit"> -->
+    <textarea cols="40" rows="4"></textarea><br />
+
+    <label for="firstname">First Name:</label>  <!-- We need to put name for the catagories, ****LABEL have to match ID-->
+    <input type="text" id="firstname" /><br />  <!-- INPUT can be and is Inline-block element-->
+    <label for="email">Email:</label>
+    <input type="email" id="email" /><br />
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" /><br />
+
+    
+    <label for="emaillist">Please send me many emails</label>
+    <input type="checkbox" id="emailist"/>
+
+    <label for="favfood1">Pizza</label>
+    <input type="radio" name="food" id="favfood1" />  <!-- Radio is for visitors to choose an option-->
+
+    <label for="favfood2">Burrito</label>
+    <input type="radio" name="food" id="favfood2" />
+
+    <label for="favfood3">Burger</label>
+    <input type="radio" name="food" id="favfood3" /><br />
+
+    <input type="reset" />
+    <input type="submit"/><br />
+
+
+</form>
+
+
+
+
+
+</body>
+</html>
