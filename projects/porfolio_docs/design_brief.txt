@@ -1,4 +1,4 @@
-Project 2: PORFOLIO
+Project 2: PORTFOLIO - design_brief
 
 Header: 
 Background color: Greenyellow, rgb (173,255,47) (Since green represent "Competence" according to helpscout.com, I think it can reflex more for my portfolio project.)
