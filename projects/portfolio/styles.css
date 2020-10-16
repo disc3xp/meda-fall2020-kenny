@@ -1,0 +1,101 @@
+/* 9-17-2020: */
+/* Normally we would have a parent div holding #header, #main, and #footer, so we can apply margin-left and margin-right to this parent div, instead of every div on the webpage. */
+
+/* meaning, professional designers do the following in the Body of webpage:
+<body>
+<div>
+  <div #header></div>
+  <div #main></div>
+  <div #footer></div>
+</div>    easier to control
+</body>
+*/
+
+#header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(173,255,47);
+    margin-left: auto;
+    margin-right: auto;
+    text-emphasis-color: red;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+img {
+    float: left;
+}
+
+
+#container{
+    margin-left: 1200px;
+    width: 700px;
+}
+
+#container header nav{
+    border:dashed green 1px;
+    text-align: center;
+    border-style: none;
+}
+
+#container header nav ul li{
+    display: inline-block;
+    padding: 50px;
+    font-size: 32px;
+}
+
+
+nav > ul > li > a{
+    color: rgb(255, 87, 25);
+
+}
+
+
+
+#footer{
+    width: 100%; 
+    height: 70px;
+    background-color: rgb(147, 149, 152);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copyright-text{
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+#body{
+
+    width: 100%;    /*-- we had 700px originally. now 660=700-20-20 --> */
+    height: 700px;
+    background-color:rgb(255, 255, 255);
+    margin: auto;
+}
+
+#bodyl{
+    width: 1487px;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: inline-block;
+    
+}
+
+#bodyr{
+    width: 400px; /* originally 660; 510=660-150, and then 468=510-20-20-1-1 */
+    height: 1000px; /* originally 1000px; 958=1000-20-20-1-1-   */
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: inline-block;
+
+}
+
+

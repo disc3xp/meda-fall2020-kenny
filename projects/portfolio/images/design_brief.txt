@@ -1,0 +1,93 @@
+10/9/2020
+Project 2: PORTFOLIO - design_brief
+
+Header: 
+Background color: Greenyellow, rgb(173,255,47) (Since green represent "Competence" according to helpscout.com, I think it can reflex more for my portfolio project.)
+Font size: 32px
+Text color: Orange, rgb(255, 87, 25) (To me, this color represents energy/energetic.)
+Link text color: Should also be Orange, rgb (255, 87, 25)
+
+
+Body:
+Background color: White, rgb(255, 255, 255) (White looks pure and professional to me.)
+Font size: Default or 16px
+Text color: Default or Black
+
+
+Footer:
+Background color: Silver, rgb(147, 149, 152) (The visitors can notice that here is my footer section since it is a different color from the Body.)
+Font size: Default or 16px
+Text color: Default or Black
+Copyright 2020 Kenny Chen. All Rights Reserved.
+
+
+ALL other Link text color: Default or blue and underlined
+
+
+========================================================
+ABOUT ME
+    [image]Hello visitors, welcome to my homepage! 
+    My name is Kenny Chen. I am a San Franciscan. I love the city with many aspects, such as temperate weather, nice parks, numerous places of interest, cultural diversity, so many different sports filled with folks, and various great job opportunities. And guess what, this is my first-ever homepage which I always wanted to have. I have spent lot of my spare time to make this homepage filled with interesting contents and feature. I try to utilize my knowledge and skills to produce my homepage. I also spend my spare time on different activities too, such as playing basketball, hiking, and gaming.
+    Currently, I am unemployed due to the COVID-19 pandemic. Instead of staying home doing nothing, I would like to spend my time wisely, that is why I am taking Mission Techie Training Program at [MEDASF]. Here, I can learn lots of concepts of the I.T. industry and coding. My goal is to improve myself and obtain a stable job. I have more than 10 years of working experience, including 2 years of professional I.T. experience by worked at private companies, non-profit organization and Human Service Agency and I have obtained different sets of valuable skills. If you want to find out more information about my career, simply check out my projects page.
+    And again, I will keep working on my homepage, come and visit often, I give update quite often!
+
+
+PROJECTS
+    My Career Plan
+    Welcome visitors, on this page you can find out more about me and my career plan on my mind.
+    While I am keep studying and improving myself during my "unemployed time", I am also looking for a stable job that I like. I have gained different sets of skills from my previous employment, including excellent verbal and written communication, exceptional customer services, and management skills. I am a hard-working and fast learning person. 
+    My dream job, so far, is IS Business Analyst-Assistant since I do possess a BA degree in Economics and I am very interested in I.T.; however, I am open to other great opportunities as well. You can also review my [resume] here. If you find great job opportunities that suit me, feel free to [contact me] :)
+    And lastly, I want to share with you some of my "projects" and "artwork" that I am working on:
+Fixing my friend's computer and a dryer machine:
+[image] [image]
+Utilizing [Krita] software to produce my images:
+[image] [image] [image]
+
+
+CONTACT 
+Thanks for stopping by! If you have questions regarding how I design my website, job opportunities, and building our network,  please send me an email. I typically respond within 1-2 business days. Please free feel to contact me!
+
+Kenny Chen
+Email: cqj15xp@gmail.com
+
+
+==============================================================
+http://www.mypoorbrain.com/
+3 things I like: 
+The first glance at the Body, it looks very clean. All the images are aligned.
+In the Body, the images can flip when my mouse cursor is above it, and I can see the full images!
+In the footer, at the very bottom left corner, there is an icon I can click, and it sends me back to the top of the page. Interesting!
+
+3 things I dislike: 
+I think the layout is too simple, just with all images in the Body. I would like it to come with some texts, so I can read and interact with the website.
+In the Header, the buttons for going to other webpages are too small and sometimes hard to be noticeable.
+On the whole website, the fonts and colors seem hard to read for me, at my first glance.
+
+
+
+https://www.smashingmagazine.com/2013/06/workflow-design-develop-modern-portfolio-website/
+4 things I like:
+The background color in the Header is red-orange, it catches my attention.
+The Body color is white, it is very simple and comfortable.
+There is a mix of icons, images and many texts in the body, so the visitors won't feel bored and wanted to browse more.
+In the Body, I see the team members' avatars look very cartoonish and are in the format of .svg !
+
+3 things I dislike:
+The footer seems a bit too big due to the content he is providing. The spacing could be improved.
+In the Body, the page contents here make the page so long, I wished there is a "magical" button I can click so that I can go to next section.
+In the body, the "Leave A COMMENT" section deserves its own space, instead of it got squished in the bottom right corner.
+
+
+
+https://www.loungelizard.com/
+4 things I like: 
+In the header, it gives the link of Contact-webpage, but also providing the contact# in the same font. It allows visitors to make a call right away!
+Between the Header and Body, I thought it is .gif with an owl moving, but actually it is a video after I inspected! It catches my attention much and makes me to stare and stay on the website more.
+The Footer gives the link to his social media, such Facebook, Tweeter, very easy to access.
+In the Body, there is the "NEWSLETTER SIGN UP" section before the Footer, it is very useful and smart here.
+
+3 things I dislike:
+The fonts used in the body is way too big, they just take up space of the webpage.
+The images in the body are too huge to me as well, maybe making the thumbnail smaller.
+The author maybe should enlarge his Logo a bit larger since the fonts and images he used are relatively huge.
+
