@@ -93,7 +93,7 @@ The author maybe should enlarge his Logo a bit larger since the fonts and images
 
 
 
-10/15/2020 small changes:
+10/15/2020 small changes for Project 3:
 Added 3 thumbnails into /protfolio/images folder.
 1) fixing1-small.jpg 
 2) fixing2-small.jpg
