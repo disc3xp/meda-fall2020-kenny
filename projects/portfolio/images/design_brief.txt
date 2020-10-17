@@ -91,3 +91,10 @@ The fonts used in the body is way too big, they just take up space of the webpag
 The images in the body are too huge to me as well, maybe making the thumbnail smaller.
 The author maybe should enlarge his Logo a bit larger since the fonts and images he used are relatively huge.
 
+
+
+10/17/2020 small changes:
+Added 3 thumbnails into /protfolio/images folder.
+1) fixing1-small.jpg 
+2) fixing2-small.jpg
+3) portrait-small.jpg
