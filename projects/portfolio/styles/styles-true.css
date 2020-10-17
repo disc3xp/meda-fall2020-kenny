@@ -51,6 +51,7 @@ nav > ul > li > a{
     background-color: rgb(147, 149, 152);
     margin-left: auto;
     margin-right: auto;
+    display: inline-block;
 }
 
 .copyright-text{
@@ -72,7 +73,7 @@ nav > ul > li > a{
 
 #bodyl{
     width: 1487px;
-    height: 1000px;
+    height: 700px;
     background-color: rgb(255, 255, 255);
     margin: auto;
     display: inline-block;
@@ -80,11 +81,13 @@ nav > ul > li > a{
 }
 
 #bodyr{
-    width: 400px; 
-    height: 1000px;
+    width: 397px; 
+    height: 700px;
     background-color: rgb(255, 255, 255);
     margin: auto;
+    border-left-style: solid;
     display: inline-block;
+    vertical-align: top;
 
 }
 
@@ -110,4 +113,8 @@ a img {
 
 .contact-message{
     margin-top: 100px;
+}
+
+.underline{
+    text-decoration: underline;
 }
