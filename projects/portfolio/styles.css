@@ -1,15 +1,3 @@
-/* 9-17-2020: */
-/* Normally we would have a parent div holding #header, #main, and #footer, so we can apply margin-left and margin-right to this parent div, instead of every div on the webpage. */
-
-/* meaning, professional designers do the following in the Body of webpage:
-<body>
-<div>
-  <div #header></div>
-  <div #main></div>
-  <div #footer></div>
-</div>    easier to control
-</body>
-*/
 
 #header{
     width: 100%;
@@ -74,7 +62,7 @@ nav > ul > li > a{
 
 #body{
 
-    width: 100%;    /*-- we had 700px originally. now 660=700-20-20 --> */
+    width: 100%;   
     height: 700px;
     background-color:rgb(255, 255, 255);
     margin: auto;
@@ -90,8 +78,8 @@ nav > ul > li > a{
 }
 
 #bodyr{
-    width: 400px; /* originally 660; 510=660-150, and then 468=510-20-20-1-1 */
-    height: 1000px; /* originally 1000px; 958=1000-20-20-1-1-   */
+    width: 400px; 
+    height: 1000px; 
     background-color: rgb(255, 255, 255);
     margin: auto;
     display: inline-block;
